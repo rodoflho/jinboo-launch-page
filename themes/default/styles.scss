@@ -171,6 +171,13 @@ a:hover {
   margin: auto;
 }
 
+#foot-menu {
+  margin: 0 8%;
+  text-align:center;
+  display:flex;
+  justify-content: space-around; 
+}
+
 //
 // large screens
 //
@@ -185,6 +192,10 @@ a:hover {
     margin: 0 auto 10px;
     border-radius: 15px;
     width: 500px;
+  }
+  
+  #foot-menu {
+    margin: 0 30%;
   }
 
   .marketing-desc {
