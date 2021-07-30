@@ -1,0 +1,92 @@
+<div class="main" role="main">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-6">
+
+        <!-- Marketing -->
+        <div class="marketing">
+          <div class="app-meta">
+            {% if site.enable.app_icon %}
+            <a href="/">
+              <img
+                class="app-icon"
+                style="min-width: 92px;"
+                height="auto"
+                {% if site.app.icon %} src="{{ site.app.icon }}"{% endif %}
+              />
+            </a>
+            {% endif %}
+            
+          </div>
+
+          <div class="container">
+            <div class="row ">
+              <div class="col-lg-7 mx-auto">
+                  <div class="card mt-2 mx-auto p-4 bg-light">
+                      <div class="card-body bg-light">
+                          <div class="container">
+                              <form  action="https://formspree.io/f/mqkwypqj" method="POST" id="contact-form" role="form">
+                                  <div class="controls">
+                                      <div class="row">
+                                          <div class="col-md-6">
+                                              <div class="form-group"> <label for="form_name">Firstname *</label> <input id="form_name" type="text" name="_fname" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                              <div class="form-group"> <label for="form_lastname">Lastname *</label> <input id="form_lastname" type="text" name="_lname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> </div>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="col-md-6">
+                                              <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                              <div class="form-group"> <label for="form_need">Please specify your need *</label> <select id="form_need" name="_subject" class="form-control" required="required" data-error="Please specify your need.">
+                                                      <option value="" selected disabled>--Select Your subject--</option>
+                                                      <option>I want to know more about Jinboo</option>
+                                                      <option>Comercial</option>
+                                                      <option>Issue</option>
+                                                      <option>Other</option>
+                                                  </select> </div>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                          </div>
+                                          <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div> <!-- /.8 -->
+              </div> <!-- /.row-->
+            </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+
+    
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <div class="container">
+    <div id="foot-menu">
+      <a href="/contact" style="color: #fff;">Contact</a>
+      <a href="https://www.w3schools.com" style="color: #fff;">Privacy</a>
+      <a href="https://www.w3schools.com" style="color: #fff;">Terms</a>
+    </div>
+  </div>
+</div>
+
+
